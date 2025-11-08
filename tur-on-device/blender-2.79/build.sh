@@ -3,8 +3,8 @@ TERMUX_PKG_DESCRIPTION="A fully integrated 3D graphics creation suite"
 # Blender website recommends distributing binaries under "GPL-3.0-or-later" license
 # https://www.blender.org/about/license/
 TERMUX_PKG_LICENSE="GPL-3.0-or-later"
-TERMUX_PKG_MAINTAINER="@termux-user-repository"
-TERMUX_PKG_VERSION=4.5.4
+TERMUX_PKG_MAINTAINER="@nerdynoob223"
+TERMUX_PKG_VERSION=2.79b
 TERMUX_PKG_REVISION=1
 TERMUX_PKG_SRCURL=git+https://projects.blender.org/blender/blender
 # Blender does not support 32-bit
