@@ -7,7 +7,7 @@ TERMUX_PKG_VERSION=2.79b
 TERMUX_PKG_SRCURL=git+https://github.com/nerdynoob223/blender/
 TERMUX_PKG_GIT_BRANCH=blender-v2.79b-release.mod
 TERMUX_PKG_EXCLUDED_ARCHES="arm, i686"
-TERMUX_PKG_DEPENDS="libjpeg-turbo, libpng, freetype, libtiff, zlib, openexr,  openjpeg, python3.7, libxml2, libffi"
+TERMUX_PKG_DEPENDS="libjpeg-turbo, libpng, freetype, libtiff, zlib, openexr, openimageio,  openjpeg, python3.7, libxml2, libffi"
 TERMUX_PKG_BUILD_DEPENDS="cmake, make, clang, python, libxi, xorgproto, libx11, libxext"
 TERMUX_PKG_BUILD_IN_SRC=true
 
