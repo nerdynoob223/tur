@@ -4,6 +4,7 @@ TERMUX_PKG_DESCRIPTION="Blender 2.79 - 3D creation suite (legacy minimal build)"
 TERMUX_PKG_LICENSE="GPL-2.0"
 TERMUX_PKG_MAINTAINER="@nerdynoob223"
 TERMUX_PKG_VERSION=2.79
+TERMUX_PKG_REVISION=3
 TERMUX_PKG_SRCURL=https://github.com/nerdynoob223/blender/
 TERMUX_PKG_GIT_BRANCH=blender-v2.79b-release
 TERMUX_PKG_EXCLUDED_ARCHES="arm, i686"
