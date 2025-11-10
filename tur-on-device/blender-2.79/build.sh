@@ -18,6 +18,8 @@ export LDFLAGS="${LDFLAGS} -lm -ldl"
 }
 
 termux_step_configure() {
+# check for installed packages
+apt list --installed
 mkdir -p build && cd build
 cmake .. \
 -DWITH_CYCLES=OFF \
