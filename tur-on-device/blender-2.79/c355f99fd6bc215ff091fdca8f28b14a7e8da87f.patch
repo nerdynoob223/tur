@@ -1,0 +1,38 @@
+From c355f99fd6bc215ff091fdca8f28b14a7e8da87f Mon Sep 17 00:00:00 2001
+From: nerdynoob223 <sahniqv39@gmail.com>
+Date: Sun, 9 Nov 2025 20:05:01 +0530
+Subject: [PATCH] Update .gitmodules
+
+---
+ .gitmodules | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/.gitmodules b/.gitmodules
+index 2f52bfce372b..a97d824a84ec 100644
+--- a/.gitmodules
++++ b/.gitmodules
+@@ -1,20 +1,20 @@
+ [submodule "release/scripts/addons"]
+ 	path = release/scripts/addons
+-	url = ../blender-addons.git
++	url = https://github.com/blender/blender-addons.git
+ 	ignore = all
+ 	branch = master
+ [submodule "release/scripts/addons_contrib"]
+ 	path = release/scripts/addons_contrib
+-	url = ../blender-addons-contrib.git
++	url = https://github.com/blender/blender-addons-contrib.git
+ 	ignore = all
+ 	branch = master
+ [submodule "release/datafiles/locale"]
+ 	path = release/datafiles/locale
+-	url = ../blender-translations.git
++	url = https://github.com/blender/blender-translations.git
+ 	ignore = all
+ 	branch = master
+ [submodule "source/tools"]
+ 	path = source/tools
+-	url = ../blender-dev-tools.git
++	url = https://github.com/blender/blender-dev-tools.git
+ 	ignore = all
+ 	branch = master
